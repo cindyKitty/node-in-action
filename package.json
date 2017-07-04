@@ -1,0 +1,17 @@
+{
+  "name": "node-in-action",
+  "version": "1.0.0",
+  "description": "node-in-action",
+  "author": "jiangying",
+  "private": true,
+  "scripts": {
+    "dev": "node build/dev-server.js",
+    "build": "node build/build.js",
+    "test": "",
+    "lint": "eslint --ext .js,.vue src"
+  },
+  "dependencies": {
+    "node-taobao-topclient": "^0.1.7"
+  },
+  "devDependencies": {}
+}
